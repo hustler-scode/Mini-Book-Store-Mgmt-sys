@@ -1,0 +1,16 @@
+{
+  "watch": [
+    "src",
+    "server.js"
+  ],
+  "ext": "js,mjs,cjs",
+  "ignore": [
+    "swagger-output.json",
+    "*.sqlite",
+    "*.sqlite-journal",
+    "node_modules",
+    "test_database.sqlite"
+  ],
+  "delay": 500
+}
+
